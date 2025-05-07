@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Vilnius
+LAST-MODIFIED:20240422T053451Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Europe/Vilnius
+X-LIC-LOCATION:Europe/Vilnius
+BEGIN:DAYLIGHT
+TZNAME:EEST
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:EET
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250507T093601Z
+UID:1746610499941-10317@ical.marudot.com
+DTSTART;TZID=Europe/Vilnius:20250509T180000
+DTEND;TZID=Europe/Vilnius:20250509T200000
+SUMMARY:🌻 Amber & Sunflower Rhymes
+DESCRIPTION:✨ Live musical performances will alternate with poetry readings\n🎤 Open mic - everyone is welcome to share their voice\n🌍 Event will be held in English\, but performances in Lithuanian\, Ukrainian\, and English.\n☕️ Cozy atmosphere\, good company\, and inspiring art\n🤝 A space for connection between cultures\, hearts\, and minds
+LOCATION:Kernagis Bar\, Islandijos g. 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌻 Amber & Sunflower Rhymes
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
